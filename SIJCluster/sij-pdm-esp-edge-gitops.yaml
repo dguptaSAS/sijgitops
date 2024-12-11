@@ -22,7 +22,7 @@ spec:
       value: /usr/bin/python3
     - name: DFESP_CONFIG
       value: /mnt/data/config
-    image: acrai6ikmo456nc2.azurecr.io/predictivemaintenance_jumpstart_edge-x86_64:latest
+    image: acrai6ikmo456nc2.azurecr.io/predictivemaintenance_jumpstart_edge-x86_64:1-2024.12-20241120.111704
     imagePullPolicy: IfNotPresent
     name: sij-pdm-esp-edge
     resources:
